@@ -244,6 +244,11 @@ hr.small {
 .sponsors .community-partners img {
     width: 100px;
 }
+
+.bg-purple {
+    background-color: #46286F;
+    color: #fff;
+}
 /* Footer */
 
 footer {
