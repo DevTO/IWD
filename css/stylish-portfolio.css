@@ -160,6 +160,7 @@ hr.small {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    color: #fff;
 }
 
 /* About */
@@ -232,8 +233,20 @@ hr.small {
     }
 }
 
+.sponsors img {
+    margin: 10px;
+}
+
+.sponsors .title-sponsors img {
+    width: 200px;
+}
+
+.sponsors .community-partners img {
+    width: 100px;
+}
 /* Footer */
 
 footer {
     padding: 100px 0;
 }
+
