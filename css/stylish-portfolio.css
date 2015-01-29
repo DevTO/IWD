@@ -254,7 +254,11 @@ hr.small {
 }
 
 .sponsors .community-partners img {
-    width: 100px;
+    width: 75px;
+}
+
+.sponsors .venue-partners img {
+    width: 120px;
 }
 
 .bg-purple {
