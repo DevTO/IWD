@@ -255,7 +255,7 @@ hr.small {
 
 .map {
     height: 500px;
-    margin-bottom:500px;
+    margin-bottom:600px;
 }
 
 .map-overlay {
@@ -340,8 +340,34 @@ a {
     text-decoration: underline;
 }
 
+@media (min-width:992px) and (max-width:1200px){
+    .speaker{
+        height: 700px;
+    } 
+}
+
+@media (min-width:1201px and (max-width:1600px)){
+    .speaker{
+        height: 650px;
+    } 
+}
+
+@media (min-width:1601px){
+    .speaker {
+        height: 550px;
+    }
+}
 .speakers .thumbnail{
     min-height: 400px;
+}
+
+.sponsors h1, .sponsors h2, .sponsors h3 {
+    border-radius: 20px;
+    padding: 10px;
+    background: #9F66A1;
+    color: #fff;
+    width: 200px;
+    margin: 30px auto;
 }
 
 
