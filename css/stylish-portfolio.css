@@ -254,8 +254,7 @@ hr.small {
 /* Map */
 
 .map {
-    height: 500px;
-    margin-bottom:600px;
+    margin-bottom:50px;
 }
 
 .map-overlay {
