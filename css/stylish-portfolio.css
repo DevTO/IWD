@@ -369,5 +369,7 @@ a {
     width: 200px;
     margin: 30px auto;
 }
-
+.bg-purple a{
+    color: #fff;
+}
 
