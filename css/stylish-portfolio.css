@@ -369,6 +369,10 @@ a {
     width: 200px;
     margin: 30px auto;
 }
+
+.speaker a, .bg-purple .speaker a {
+    color: #000;
+}
 .bg-purple a{
     color: #fff;
 }
