@@ -14,6 +14,8 @@
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link href="css/flipclock.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
 
@@ -64,6 +66,8 @@
             <div class="row-fluid">
                 <div class="col-lg-12 text-center">
                     <h2>A celebration of the past &amp; ongoing achievements of women in STEM</h2>
+                                <div id="countdown"></div>
+
                     <p class="lead">
                         After last year's innaugural IWDTO event, #DevTO returns on March 7th 2016 with their 2nd Annual International Women's Day Talks. In 2016 we are inviting 4 women in tech to share inspirational talks with us in Toronto.
                     </p>
@@ -345,6 +349,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
+    <script src="js/flipclock.min.js"></script>
+
     <!-- Custom Theme JavaScript -->
     <script>
     // Closes the sidebar menu
@@ -361,6 +367,14 @@
 
     // Scrolls to the selected menu item on the page
     $(function() {
+
+        var clock = $('#countdown').FlipClock({
+            countdown: true,
+            clockFace: 'DailyCounter'
+        });
+        clock.setTime(new Date('07 Mar 2016 18:00:00 EST'));
+        clock.start();
+
         $('a[href*=#]:not([href=#])').click(function() {
             if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 

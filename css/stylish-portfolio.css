@@ -373,3 +373,18 @@ a {
     color: #fff;
 }
 
+@media (min-width: 800px){
+        #countdown {
+        display:block;
+        width: 700px;
+        padding: 25px;
+        margin: 0px auto;
+    }    
+}
+
+@media (max-width: 799px){
+    #countdown{
+        display:none;
+    }
+}
+
