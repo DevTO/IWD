@@ -340,21 +340,26 @@ a {
     text-decoration: underline;
 }
 
-@media (min-width:992px) and (max-width:1200px){
+@media (max-width: 799px){
+     .speaker{
+        height: 800px;
+    } 
+}
+@media (min-width:800px) and (max-width:1200px){
     .speaker{
-        height: 700px;
+        height: 750px;
     } 
 }
 
-@media (min-width:1201px and (max-width:1600px)){
+@media (min-width:1201px) and (max-width:1600px){
     .speaker{
-        height: 650px;
+        height: 550px;
     } 
 }
 
 @media (min-width:1601px){
     .speaker {
-        height: 550px;
+        height: 500px;
     }
 }
 .speakers .thumbnail{
