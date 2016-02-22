@@ -340,7 +340,7 @@ a {
     text-decoration: underline;
 }
 
-@media (max-width: 799px){
+/*@media (max-width: 799px){
      .speaker{
         height: 800px;
     } 
@@ -364,7 +364,7 @@ a {
 }
 .speakers .thumbnail{
     min-height: 400px;
-}
+}*/
 
 .sponsors h1, .sponsors h2, .sponsors h3 {
     border-radius: 20px;
