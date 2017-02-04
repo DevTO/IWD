@@ -363,11 +363,8 @@ a {
 .sponsors h1, .sponsors h2, .sponsors h3 {
     border-radius: 20px;
     padding: 10px;
-    /*background: #9F66A1;*/
     color: #9F66A1;
-    width: 200px;
     margin: 30px auto;
-    text-decoration: underline;
     font-weight: bold;
 }
 
