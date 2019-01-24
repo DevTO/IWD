@@ -4,6 +4,33 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+
+.sponsor {
+  border: 1px solid rgb(44, 17, 82);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.sponsor ul,{
+  list-style: none;
+  text-align: left;
+}
+
+.packages ul {
+  text-align: left;
+}
+
+.past-images {
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.past-images img {
+  width: 225px;
+  height: 150px;
+  margin: 5px;
+}
 html,
 body {
   width: 100%;
@@ -15,13 +42,9 @@ body {
 }
 
 a {
-  color: rgb(44, 17, 82);
   -webkit-transition: all .35s;
   transition: all .35s;
-}
-
-a:hover, a:focus {
-  color: #fcbd20;
+  font-weight: bold;
 }
 
 hr {
@@ -54,10 +77,6 @@ p {
 
 section {
   padding: 100px 0;
-}
-
-section h2 {
-  font-size: 50px;
 }
 
 #mainNav {
