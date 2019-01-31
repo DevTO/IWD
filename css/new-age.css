@@ -4,13 +4,30 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+.speaker {
+  margin: 50px 0px;
+}
 
+.speaker img {
+  margin-right: 20px;
+  margin-top: 50px;
+  width: 150px;
+}
+
+.speaker p {
+  font-size: 18px;
+}
+
+.speaker h3 {
+  font-size: 32px;
+}
 .sponsor {
   border: 1px solid rgb(44, 17, 82);
   border-radius: 5px;
   padding: 20px;
   margin: 10px;
 }
+
 
 .sponsor ul,{
   list-style: none;
